@@ -1,0 +1,19 @@
+public class searching3 {
+    public static void main(String[] args) {
+
+        int[] nilai = {65, 70, 80, 90, 75, 85};
+        int cariNilai = 90;
+        boolean ditemukan = false;
+
+        for (int i = 0; i < nilai.length; i++) {
+            if (nilai[i] == cariNilai) {
+                ditemukan = true;
+                break;
+            }
+        }
+
+        System.out.println(
+            ditemukan ? "Nilai ditemukan" : "Nilai tidak ditemukan"
+        );
+    }
+}
